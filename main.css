@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Gravitas+One&display=swap') ;
+
+
+/* composed and written by md harrington bexley heath london */
+
+* {
+    margin: 0;
+    padding: 20px;
+  }
+ 
+  
+  body{
+    margin-top: 20px;
+    background-image: url('birthdays/night4.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+  }
+
+ div.container_main{
+
+        margin:auto;
+        display: flex;
+        flex-direction: column;
+        flex-flow: ;
+        width:500px;
+        height: 500px;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        vertical-align: middle;
+        border-color: whitesmoke;
+        border-style: solid;
+
+
+        /*border:2px solid rgba(45, 255, 195, 0.287);*/
+        border-radius: 50%;
+        box-shadow: 0px 0px 42px 9px rgba(45,255,196,0.9);
+
+ }
+
+ .title{
+  display:flex;
+  height:70px;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+  margin-bottom: 30px;
+  align-content: center;
+  align-items: center;
+  text-align:center;
+
+
+  background-image: url('birthdays/Happy-Birthday-02-08-2021.png');
+
+ }
+
+  div.circle1{
+    margin:0  auto;
+    width: 500px;
+    height: 500px;
+    position:absolute;
+    
+
+    border-radius: 50%;
+
+  }
+
+  div.circle2{
+
+    width: 5px;
+    height: 5px;
+    position:absolute;
+    
+    border-radius: 50%;
+    background-image: radial-gradient(
+      hsl(180, 100%, 80%),
+      hsl(180, 100%, 80%) 10%,
+      hsla(180, 100%, 80%, 0) 56%
+    );
+
+    animation: myOrbit 4s linear infinite; /* Chrome, Firefox 16+, 
+                                                      IE 10+, Safari 5 */
+
+  } 
+
+  div.circle3{
+
+    width: 5px;
+    height: 5px;
+    position:absolute;
+    
+    border-radius: 50%;
+    background-image: radial-gradient(
+      hsl(61, 100%, 80%),
+      hsl(71, 100%, 80%) 10%,
+      hsla(180, 100%, 80%, 0) 56%
+    );
+
+    animation: myOrbit 8s linear infinite; /* Chrome, Firefox 16+, */
+                  
+  }
+
+
+  div.circle4{
+
+    width: 5px;
+    height: 5px;
+    position:absolute;
+    
+    border-radius: 50%;
+    background-image: radial-gradient(
+      hsl(355, 100%, 80%),
+      hsl(0, 95%, 60%) 10%,
+      hsla(5, 96%, 49%, 0.157) 56%
+    );
+
+    animation: myOrbit 6s linear infinite; /* Chrome, Firefox 16+, */
+                  
+  }
+  div.circle5{
+
+    width: 5px;
+    height: 5px;
+    position:absolute;
+    
+    border-radius: 50%;
+    background-image: radial-gradient(
+      hsl(113, 51%, 57%),
+      hsl(120, 80%, 61%) 12%,
+      hsla(140, 42%, 46%, 0.061) 56%
+    );
+
+    animation: myOrbit 16s linear infinite; /* Chrome, Firefox 16+, */
+                  
+  }
+  
+
+ p.message
+ {
+    
+    position: absolute;
+    text-align: center;
+    color:rgb(184, 41, 148);
+    vertical-align: center;
+    
+    font-family: 'Gravitas One', serif , cursive;
+    font-size: 40px;
+    font-weight:bold;
+    text-shadow: 1px 0px 4px rgba(7, 245, 201, 0.698);
+    opacity:1;
+    animation: fadeinout 10s linear infinite;
+}
+
+footer.panel{
+
+ padding: 30px;
+ text-align: center;
+ 
+ color:rgb(241, 245, 245);
+ 
+ height: fit-content;
+ 
+ font-family: 'Gravitas One', serif , cursive;
+ font-size: 22px;
+}
+
+
+@-webkit-keyframes fadeinout {
+  0%,100% { opacity: 0; }
+  50% { opacity: 1; }
+  100% {opacity:0}
+}
+
+
+@keyframes myOrbit {
+    from { transform: rotate(360deg) translateX(250px) rotate(0deg); }
+    to   { transform: rotate(0deg) translateX(250px) rotate(360deg); }
+}
