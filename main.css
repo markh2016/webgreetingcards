@@ -11,7 +11,7 @@
   
   body{
     margin-top: 20px;
-    background-image: url('birthdays/night4.jpg');
+    background-image: url('night4.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -30,8 +30,8 @@
         align-items: center;
         justify-content: center;
         vertical-align: middle;
-        border-color: whitesmoke;
-        border-style: solid;
+        border-color: rgba(10, 226, 208, 0.959);
+        border-style: 1;
 
 
         /*border:2px solid rgba(45, 255, 195, 0.287);*/
@@ -52,7 +52,7 @@
   text-align:center;
 
 
-  background-image: url('birthdays/Happy-Birthday-02-08-2021.png');
+  background-image: url('Happy-Birthday-02-08-2021.png');
 
  }
 
